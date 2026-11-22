@@ -1,0 +1,8 @@
+description=Social spy: yetkililer oyuncuların özel mesajlarını okur.
+permission_use=/socialspy ile oyuncuların özel mesajlarını oku.
+command_socialspy=Social spy'ı aç ya da kapat.
+players_only=Bu komutu yalnızca oyuncular kullanabilir.
+no_permission=Bu komut için permission sahibi değilsin.
+on=Social spy açık. Artık oyuncuların özel mesajlarını okuyorsun.
+off=Social spy kapalı.
+full=Çok fazla yetkilide social spy açık. Daha sonra tekrar dene.

@@ -1,0 +1,18 @@
+[package]
+name = "sp-lang"
+version = "0.1.0"
+edition = "2024"
+description = "Strawberry library: a plugin's lang/{en,fr,es,tr}.lang embedded and checked for key parity while it compiles, the language of each player resolved once, {server_name} from the server profile, en as the fallback, the engine's translation registry behind a gate."
+authors = ["Strawberry Interactive LLC"]
+license = "LicenseRef-Strawberry-Source-Available-1.0"
+publish = false
+
+[features]
+# The adapter onto the engine's translation registry (`engine::EngineRegistry`). Plain Rust without it.
+engine = ["dep:strawberry-plugin-api"]
+
+[dependencies]
+strawberry-plugin-api = { version = "=0.2.2", registry = "strawberry", optional = true }
+
+[lints]
+workspace = true

@@ -1,0 +1,8 @@
+description=Social spy: staff read the private messages of players.
+permission_use=Read the private messages of players with /socialspy.
+command_socialspy=Switch social spy on or off.
+players_only=Only players can use this command.
+no_permission=You do not have permission to use that command.
+on=Social spy is on. You now read the private messages of players.
+off=Social spy is off.
+full=Too many staff members have social spy on. Try again later.

@@ -1,0 +1,8 @@
+description=Social spy : le staff lit les messages privés des joueurs.
+permission_use=Lire les messages privés des joueurs avec /socialspy.
+command_socialspy=Activer ou désactiver le social spy.
+players_only=Seuls les joueurs peuvent utiliser cette commande.
+no_permission=Vous n'avez pas la permission d'utiliser cette commande.
+on=Le social spy est activé. Vous lisez maintenant les messages privés des joueurs.
+off=Le social spy est désactivé.
+full=Trop de membres du staff ont le social spy activé. Réessayez plus tard.

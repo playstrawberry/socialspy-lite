@@ -1,0 +1,27 @@
+[package]
+name = "socialspy-lite"
+version = "0.1.0"
+edition = "2024"
+license = "LicenseRef-Strawberry-Source-Available-1.0"
+publish = false
+authors = ["Strawberry Interactive LLC"]
+description = "Social spy: staff read the private messages of players."
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+sp-lang = { path = "libs/sp-lang" }
+sp-social = { path = "libs/sp-social" }
+strawberry-plugin-api = { version = "=0.2.2", registry = "strawberry" }
+
+# A repository of its own, not a member of a larger workspace.
+[workspace]
+members = ["libs/sp-lang", "libs/sp-social"]
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+unwrap_used = "deny"
+expect_used = "deny"
