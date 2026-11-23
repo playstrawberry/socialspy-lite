@@ -12,7 +12,7 @@ publish = false
 engine = ["dep:strawberry-plugin-api"]
 
 [dependencies]
-strawberry-plugin-api = { version = "=0.2.2", registry = "strawberry", optional = true }
+strawberry-plugin-api = { version = "=0.2.3", registry = "strawberry", optional = true }
 
 [lints]
 workspace = true

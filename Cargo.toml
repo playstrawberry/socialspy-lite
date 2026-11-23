@@ -13,7 +13,7 @@ crate-type = ["cdylib", "rlib"]
 [dependencies]
 sp-lang = { path = "libs/sp-lang" }
 sp-social = { path = "libs/sp-social" }
-strawberry-plugin-api = { version = "=0.2.2", registry = "strawberry" }
+strawberry-plugin-api = { version = "=0.2.3", registry = "strawberry" }
 
 # A repository of its own, not a member of a larger workspace.
 [workspace]
